@@ -41,7 +41,7 @@ URL: http://localhost:5000/api/auth/login
 Headers: Content-Type: application/Json
 
 
-<img src="images/Register.png" width="300" height="200" alt="Register Image">
+<img src="Register.png" width="500" height="500" alt="Register Image">
 
 3. Account Management 
 Get All Accounts Method: GET 
@@ -52,7 +52,7 @@ Content-Type: application/Json
 
 
 
-<img src="images/accounts.png" width="300" height="200" alt="acc Image">
+<img src="accounts.png" width="300" height="200" alt="acc Image">
 
 4.  Transactions 
 Create a Transaction 
@@ -64,7 +64,7 @@ Get Transactions for an Account
 Method: GET 
 URL: http://localhost:5000/api/transactions?accountId=YOUR_ACCOUNT_ID
 
-<img src="images/transactions.png" width="300" height="200" alt="transaction Image">
+<img src="transactions.png" width="500" height="500" alt="transaction Image">
 
 ## Testing:
 
