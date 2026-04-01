@@ -31,18 +31,40 @@ Make sure you have the following installed:
 ## API Endpoints
 Authentication:
 
-Register a user: POST /api/auth/register
-Login a user: POST /api/auth/login
+1. Register a User (Sign Up) 
+Method: POST 
+URL: http://localhost:5000/api/auth/register 
 
-Account Management:
+2. Login a User (Sign In) 
+Method: POST 
+URL: http://localhost:5000/api/auth/login 
+Headers: Content-Type: application/Json
 
-Get accounts: GET /api/accounts
-Create an account: POST /api/accounts
 
-Transactions:
+<img src="images/Register.png" width="300" height="200" alt="Register Image">
 
-Create a transaction: POST /api/transactions
-Get transactions for an account: GET /api/transactions?accountId={accountId}
+3. Account Management 
+Get All Accounts Method: GET 
+Create an Account Method: POST 
+URL: http://localhost:5000/api/accounts 
+Headers: Authorization: Bearer YOUR_JWT_TOKEN 
+Content-Type: application/Json
+
+
+
+<img src="images/accounts.png" width="300" height="200" alt="acc Image">
+
+4.  Transactions 
+Create a Transaction 
+Method: POST 
+URL: http://localhost:5000/api/transactions 
+Headers: Authorization: Bearer YOUR_JWT_TOKEN 
+Content-Type: application/Json 
+Get Transactions for an Account 
+Method: GET 
+URL: http://localhost:5000/api/transactions?accountId=YOUR_ACCOUNT_ID
+
+<img src="images/transactions.png" width="300" height="200" alt="transaction Image">
 
 ## Testing:
 
