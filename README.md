@@ -28,6 +28,10 @@ Make sure you have the following installed:
 - [Postman](https://www.postman.com/) or another API testing tool
 
 
+## Architecture of Bank application with JWT
+
+<img src="arc.png" width="500" height="600" alt="Register Image">
+
 ## API Endpoints
 Authentication:
 
